@@ -1,0 +1,15 @@
+[Unit]
+Description = ip display script
+After = syslog.target
+
+[Service]
+Environment = DISPLAY_ADDR=0x3e
+Environment = SLEEP_TIME=10
+ExecStart = /bin/sh /opt/aqm-ip-display.sh 1> /dev/null
+Restart = always
+Type = simple
+StandardError = syslog
+NotifyAccess = all
+
+[Install]
+WantedBy = multi-user.target

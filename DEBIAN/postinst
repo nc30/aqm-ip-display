@@ -1,0 +1,6 @@
+#!/bin/sh
+
+systemctl enable aqm-ip-display
+systemctl start aqm-ip-display
+
+exit 0

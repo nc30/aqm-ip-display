@@ -1,0 +1,6 @@
+Package: aqm-ip-display
+Version: 0.0.2
+Architecture: all
+Maintainer: Shoji Iwaura <imamura@xshell.io>
+Priority: optional
+Description: show ip address to AQM0802 if connected
