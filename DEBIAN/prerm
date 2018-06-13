@@ -1,6 +1,6 @@
 #!/bin/sh
 
-systemd stop aqm-ip-display
-systemd disable aqm-ip-display
+systemctl stop aqm-ip-display
+systemctl disable aqm-ip-display
 
 exit 0

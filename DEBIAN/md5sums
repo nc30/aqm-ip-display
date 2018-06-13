@@ -1,2 +1,2 @@
-3800b5160407010e16a23eb13df313c4  ./opt/aqm-ip-display.sh
-b84eef3afa3c7042b4c91e5196cdfece  ./lib/systemd/system/aqm-ip-display.service
+3800b5160407010e16a23eb13df313c4 opt/aqm-ip-display.sh
+b84eef3afa3c7042b4c91e5196cdfece lib/systemd/system/aqm-ip-display.service
