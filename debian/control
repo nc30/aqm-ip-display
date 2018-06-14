@@ -1,0 +1,12 @@
+Source: aqm-ip-display
+Section: unknown
+Priority: optional
+Maintainer: Shoji Imamura <imamura@xshell.io>
+Build-Depends: debhelper (>=9)
+
+Package: aqm-ip-display
+Architecture: all
+Multi-Arch: foreign
+Recommends: i2c-tools(>= 3.0.0)
+Description: show ip address to AQM0802 if connected
+ show ip address to AQM0802 LCD Display
