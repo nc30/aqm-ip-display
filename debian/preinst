@@ -1,5 +1,5 @@
 #!/bin/sh
 
-# do nothing.
+systemctl unmask aqm-ip-display.service
 
 exit 0
